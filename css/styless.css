@@ -84,7 +84,7 @@ header .hed{
 
 
 .agenda-cita{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
     padding: 3rem;
 }
 
@@ -141,7 +141,7 @@ header .hed{
 
 /* ::::::::::::::::ESTILOS FOOTER :::::::::::::::*/
 footer{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
 }
 
 .capa{
