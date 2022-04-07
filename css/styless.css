@@ -1,99 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* *{
-    box-sizing: border-box;
-}
-
-.btn-outline-light {
-    color: #f8f9fa;
-    border-color: #f8f9fa;
-}
-
-.agenda-cita {
-    background-image: url(../img/fondo.jpg);
-    padding: rem;
-}
-
-.header-buttons{
-    color: white;
-} */
-
-
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 :root{
     --dark-color: #191919;
-    --white-color:#ffffff;
-    --purple-color: rgb(117, 41, 149);
+    --white-color: #FFFFFF;
+    --purple-color: rgb(117,41,149);
     --purplelight-color: rgb(169, 83, 206);
-    --aqua-color: aqua;
-    --gray-color: gray;
+    --blue-color: #00B2B1;
+    --gray-color: #828282;
     --ligh-color: #F3F3F3;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    
+    background-color: red;
 }
 
 a{
     text-decoration: none;
 }
-header .row{
+header .hed{
     padding: 1rem 1.5rem;
+    margin: 0;
 }
 
-.title-seccion{
+.tit-seccion{
     margin-top: 2rem;
 }
 
-.container-fluid{
+.cont-fluid{
     padding-left: 0;
     padding-right: 0;
 }
 
-.header-buttons i{
+.butto-head i{
     margin-right: 5px;
 }
 
-.header-buttons a{
+.butto-head a{
     color: black;
 }
 
-/* .agenda-cita i{
+.agenda-cita i{
     margin-right: 5px;
-} */
-
-.btn-primary{
-    color: black;
-    background-color: #05e2e2;
-    border-color: #07ffff;
 }
 
-.btn-primary:hover{
+.btn-blue{
+    color: var(--dark-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.btn-blue:hover{
     color: white;
     background-color: #91fafa;
     border-color: blue;
 }
 
-.btn-outline-primary{
-    color:rgb(117, 41, 149);
-    border-color: rgb(117, 41, 149);
+.btn-outline-blue{
+    color: var(--purple-color);
+    border-color: var(--purple-color);
 }
 
-.btn-outline-primary:hover{
+.btn-outline-blue:hover{
     color:white;
-    background-color: rgb(117, 41, 149);
-    border-color: rgb(117, 41, 149);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
 }
 
 .header-logo img{
-    max-width: 270px;
+    max-width: 320px;
 }
 
 
@@ -112,7 +93,7 @@ header .row{
 }
 
 .agenda-promo{
-    background-color: rgb(117, 41, 149);
+    background-color: var(--purple-color);
     padding: 3rem;
 }
 
@@ -123,36 +104,45 @@ header .row{
     text-shadow: 2px 2px 2px black;
 }
 
-.title-seccion{
-    color: rgb(117, 41, 149);
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.698);
+.tit-seccion{
     
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+    color: var(--purple-color);
+
 }
 
 .card{
     text-align: center;
-    border: 0px solid rgba(0, 0, 0, 0.125);
+    border: 0px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.25rem;
 }
 
 .card img{
     max-width: 200px;
+    justify-content: center;
 }
 
-.card-body h5{
+.card-body h2{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.card-body h3{
+    font-weight: bolder;
+}
+.card-body h4{
     font-weight: bolder;
 }
 
+/* ::::::::::::::::ESTILOS FOOTER :::::::::::::::*/
 footer{
     background-image: url(../img/fondo.jpg);
-    
-    
 }
 
 .capa{
     background-color: rgba(117, 41, 149, 0.561);
     color: white;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .capa p{
@@ -168,15 +158,6 @@ footer{
     color: white;
 }
 
-
-.columna-body h5{
+.col h3{
     text-align: center;
-}
-
-.columna i{
-    align-self: center;
-}
-
-.columna-body p{
-    line-height: 5px;
 }
