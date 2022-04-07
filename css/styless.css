@@ -19,7 +19,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: red;
-    overflow: hidden;
 }
 
 a{
@@ -52,10 +51,14 @@ header .hed{
     margin-right: 5px;
 }
 
+.button-head{
+    justify-content: flex-end;
+}
 .btn-blue{
     color: var(--dark-color);
     background-color: var(--blue-color);
     border-color: var(--blue-color);
+
 }
 
 .btn-blue:hover{
