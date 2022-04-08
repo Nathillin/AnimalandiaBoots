@@ -14,21 +14,22 @@
 </head>
 
 <body>
+
     <header>
-        <div class="hed align-items-center">
+        <div class="row align-items-center">
             <div class="header-logo col-12 col-md-4 col-xl-3">
-                <img src="/img/logo.jpg" class="img-fluid">
+                <img src="../img/logo.jpg" class="img-fluid">
             </div>
 
-            <div class="col-12 col-md-4 col-xl-6"></div>
-            <div class="butto-head col-12 col-md-4 col-xl-3 d-flex flex-row">
-                <form action="./views/login.html" >
-                    <button  type="submit" class="btn btn-blue"><i class="fa-solid fa-right-to-bracket"></i>Ingresar</button>
+            <div class="col-1 col-md-4 col-xl-6"></div>
+            <div class="header-buttons col-12 col-md-4 col-xl-3 d-flex flex-row">
+                <form action="./login.html">
+                    <button  type="submit" class="btn btn-blue"><i class="bi bi-person-circle"></i>Ingresar</button>
                 </form>
-                <button type="button" class="btn btn-outline-blue"><i class="fa-solid fa-power-off"></i>Registrarse</button>
+                <button type="button" class="btn btn-outline-blue"><i class="bi bi-people"></i>Registrarse</button>
             </div>
         </div>
-    </header>    
+    </header> 
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(117, 41, 149);">
             <div class="container-fluid">
@@ -39,19 +40,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="/index.html" class="nav-link active" aria-current="page">Home</a>
+                            <a href="../index.html" class="nav-link active" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/views/equipos.html" class="nav-link">Equipo</a>
+                            <a href="../views/equipos.html" class="nav-link">Equipo</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/views/servicios.html" class="nav-link">Servicios</a>
+                            <a href="../views/servicios.html" class="nav-link">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/views/tips.html" class="nav-link">Tips</a>
+                            <a href="../views/tips.html" class="nav-link">Tips</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/views/contacto.html" class="nav-link">Contacto</a>
+                            <a href="../views/contacto.html" class="nav-link">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -65,19 +66,19 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/img/banner_equipo 2.png" class="d-block w-100" alt="...">
+                <img src="../img/banner 1.png" class="d-block w-100" alt="...">
             </div>
 
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="/img/visitanos.png" class="d-block w-100" alt="...">
+                <img src="../img/banner_equipo 2.png" class="d-block w-100" alt="...">
             </div>
 
-            <div class="carousel-item">
-                <img src="/img/Group 2.png" class="d-block w-100" alt="...">
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="../img/Group 2.png" class="d-block w-100" alt="...">
             </div>
 
-            <div class="carousel-item">
-                <img src="/img/banner 1.png" class="d-block w-100" alt="...">
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="../img/visitanos.png" class="d-block w-100" alt="...">
             </div>
         </div>
 
@@ -92,32 +93,70 @@
         </button>
     </div>
 
-    <!-- <div class="grid">
-        <div class="g-col-4">
-            <img src="/img/vacuna.png" alt="veterinario">
-            <h3>Vacunación de Mascotas</h3>
-                <p>Este servicio se presta bajo chequeo clinico veterinario previo para un ciclo de vacunación completo de la mascota y medicación de acuerdo con la patologia a tratar. Si su mascota tiene historial de vacunación (Carné de vacunación) se recomienda traerlo a la consulta para actualizar su historial clínico.</p>
-        </div>
+    <main>
+        <div class="row mt-4 ">
+            <h1 class="tit-seccion text-center mb-5">Nuestros servicios</h1>
+                <div class="row lin-linea mt-2 mb-lg-5">
+                    <div class="Card" style="max-width: 580px; height: 200px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../img/vacuna.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start" style="width: 70%">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="Card-body">
+                                    <h5 class="Card-title">Vacunacion de Mascotas</h5>
+                                    <p class="Card-texto"> Este servicio se presta bajo chequeo clinico veterinario previo para un ciclo de vacunación completo de la mascota y medicación de acuerdo con la patologia a tratar. Si su mascota tiene historial de vacunación (Carné de vacunación) se recomienda traerlo a la consulta para actualizar su historial clínico.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="g-col-6">
-            <img src="/img/consultav.png" alt="veterinario">
-            <h3>Consulta Veterinaria</h3>
-                <p>Servio de interconsultas con especialistas dependiendo de la patologia a analiza para su posterior tratamiento.</p>
-        </div>
+                    <div class="Card" style="max-width: 580px; height: 200px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../img/laboratorio.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start" style="width: 90%">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="Card-body">
+                                    <h5 class="Card-title">Consulta Veterinaria</h5>
+                                    <p class="Card-texto"> Servicio de interconsultas con especialistas dependiendo de la patologia a analiza para su posterior tratamiento. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="g-col-6">
-            <img src="/img/laboratorio.png" alt="veterinario">
-            <h3>Laboratorio Clínico</h3>
-                <p>Tenemos un amplio portafolio de servicios de analisis medico para tu mascota, garantizando el mejor manejo del diagnostico clínico.</p>
-        </div>
+                <div class="row lin-linea mt-5">
+                    <div class="Card" style="max-width: 580px; height: 200px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../img/consultav.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start" style="width: 90%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="Card-body">
+                                <h5 class="Card-title">Laboratorio Clínico</h5>
+                                <p class="Card-texto"> Tenemos un amplio portafolio de servicios de analisis medico para tu mascota, garantizando el mejor manejo del diagnostico clínico..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="g-col-6">
-            <img src="/img/banio.png" alt="veterinario">
-            <h3>Estética de las Mascotas</h3>
-                <p>Tenemos un amplio portafolio de servicios esteticos para las mascotas, baños, peluqueria profilaxix.</p>
+                <div class="Card mb-2" style="max-width: 580px; height: 200px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../img/banio.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start" style="width: 90%">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="Card-body">
+                                <h5 class="Card-title">Estética de las Mascotas</h5>
+                                <p class="Card-texto"> Tenemos un amplio portafolio de servicios esteticos para las mascotas, baños, peluqueria profilaxix.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> -->
-
+    </main>
 
     <footer class="cont-fluid p-0">
         <div class="capa">
@@ -157,7 +196,6 @@
         </div>
     </footer>
 
-<!-- </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 crossorigin="anonymous"></script>

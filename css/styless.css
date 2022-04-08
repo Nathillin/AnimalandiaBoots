@@ -18,16 +18,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: red;
+    /* background-color: red; */
 }
 
 a{
     text-decoration: none;
 }
-header .hed{
+header .row{
     padding: 1rem 1.5rem;
     margin: 0;
-    
 }
 
 .tit-seccion{
@@ -39,14 +38,6 @@ header .hed{
     padding-right: 0;
 }
 
-.butto-head i{
-    margin-right: 5px;
-}
-
-.butto-head a{
-    color: black;
-}
-
 .agenda-cita i{
     margin-right: 5px;
 }
@@ -54,11 +45,11 @@ header .hed{
 .button-head{
     justify-content: flex-end;
 }
+
 .btn-blue{
     color: var(--dark-color);
     background-color: var(--blue-color);
     border-color: var(--blue-color);
-
 }
 
 .btn-blue:hover{
@@ -90,6 +81,7 @@ header .hed{
 
 .agenda-cita h1{
     font-size: 1.5rem;
+    padding-bottom: 3rem;
     font-weight: 600;
 }
 
@@ -110,10 +102,8 @@ header .hed{
 }
 
 .tit-seccion{
-    
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
     color: var(--purple-color);
-
 }
 
 .card{
@@ -124,7 +114,7 @@ header .hed{
 
 .card img{
     max-width: 200px;
-    justify-content: center;
+    align-items: center;
 }
 
 .card-body h2{
@@ -134,12 +124,17 @@ header .hed{
 
 .card-body h3{
     font-weight: bolder;
+    font-size: 20px;
 }
 .card-body h4{
     font-weight: bolder;
 }
 
-/* ::::::::::::::::ESTILOS FOOTER :::::::::::::::*/
+.card-body p{
+    font-size: 16px;
+}
+
+/* ESTILOS FOOTER */
 footer{
     background-image: url(../img/fondo.jpg);
 }
@@ -165,4 +160,137 @@ footer{
 
 .col h3{
     text-align: center;
+}
+
+/* ::::::::::::::::ESTILOS SERVICIOS :::::::::::::::*/
+
+
+h1{
+    color: rgb(139, 0, 139);
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px gray;
+}
+
+
+.lin-linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.Card{
+    margin-bottom: -100px;
+}
+
+.Card-texto{
+    text-align: justify;
+    line-height: 20px;
+}
+
+/* .Card-title{
+    font-size: 22px;
+} */
+
+.imgLog{
+    font-size: 120px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+    color: var(--blue-color);
+}
+
+.Card-titles{
+    color: var(--blue-color);
+    font-weight: bold;
+}
+
+/* ::::::::::::::::ESTILOS LOGIN :::::::::::::::*/
+
+
+button a:hover{
+    color: black;
+}
+
+.container form svg{
+    color: purple;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    border: 3px solid gray;
+}
+
+.container img{
+    align-items: flex-end;
+}
+
+.container form{
+    padding: 2.5rem;
+    width: 350px;
+    margin: 10px;;
+}
+
+.container img{
+    width: 500px;
+    height: 150px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.bton{
+    color: #000;
+    width: 450px;
+}
+
+/* .btn-primary{
+    background-color: aquamarine;
+    font-weight: bold;
+} */
+
+/* .btn-primary:hover{
+    background-color: var(--purple-color);
+    border-color:white;
+    font-weight: bold;
+    color: white;
+} */
+
+.btn-info{
+    background-color: purple;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-info:hover{
+    box-shadow: 0px 5px 2px rgb(177, 129, 221);
+    background-color: purple;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    min-width: 250px;
+    border: 2px solid rgb(143, 142, 142);
+}
+
+.form-olvido{
+    color: var(--blue-color);
+}
+
+.btn-primary1{
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    align-items: center;
+    font-weight: bold;
+}
+
+.bi{
+    align-items: center;
 }

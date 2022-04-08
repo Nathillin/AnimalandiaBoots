@@ -15,22 +15,20 @@
 
 <body>
     <header>
-        <div class="head align-items-center">
+        <div class="row align-items-center">
             <div class="header-logo col-12 col-md-4 col-xl-3">
                 <img src="img/logo.jpg" class="img-fluid">
             </div>
 
-            <h1>Hola</h1>
-
-            
-            <div class="button-head col-12 col-md-4 col-xl-3 d-flex flex-row align-items-flex-end">
-                <form action="views/login.html" >
-                    <button  type="submit" class="btn btn-blue"><i class="fa-solid fa-right-to-bracket"></i>Ingresar</button>
+            <div class="col-1 col-md-4 col-xl-6"></div>
+            <div class="header-buttons col-12 col-md-4 col-xl-3 d-flex flex-row">
+                <form action="./login.html">
+                    <button  type="submit" class="btn btn-blue"><i class="bi bi-person-circle"></i>Ingresar</button>
                 </form>
-                <button type="button" class="btn btn-outline-blue "><i class="fa-solid fa-power-off"></i>Registrarse</button>
+                <button type="button" class="btn btn-outline-blue"><i class="bi bi-people"></i>Registrarse</button>
             </div>
         </div>
-    </header>    
+    </header>     
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(117, 41, 149);">
             <div class="container-fluid">
@@ -80,12 +78,12 @@
         </div>
     </section>
 
-    <h2 class="tit-seccion text-center mb-5">Servicios</h2>
+    <h1 class="tit-seccion text-center mb-5">Servicios</h1>
 
     <section id="servicios">
         <div class="row">
-            <div class="text-center col-12 col-md-4">
-                <div class="card text-center">
+            <div class="col-12 col-md-4 text-center">
+                <div class="card align-items-center text-center">
                     <img src="img/paciente.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Pacientes</h4>
@@ -93,8 +91,10 @@
                     </div>
                 </div>
             </div>
+
+            
             <div class="col-12 col-md-4">
-                <div class="card text-center">
+                <div class="card align-items-center text-center">
                     <img src="img/veterinario.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Veterinario</h4>
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card text-center">
+                <div class="card align-items-center text-center">
                     <img src="img/vacunacion.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Vacunacion</h4>
